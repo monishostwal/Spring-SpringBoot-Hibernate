@@ -1,0 +1,11 @@
+package com.example.demo;
+
+public class CricketCoach implements Coach {
+
+	@Override
+	public String getActivity() {
+		
+		return "Practice Cricket for 5 minutes.";
+	}
+
+}

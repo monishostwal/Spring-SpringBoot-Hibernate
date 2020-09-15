@@ -1,0 +1,12 @@
+package com.example.demo;
+
+public class FootballCoach implements Coach {
+
+	@Override
+	public String getworkout() {
+		
+		return "Dribble for 100 minutes.";
+	}
+	
+
+}
