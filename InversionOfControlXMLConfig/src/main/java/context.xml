@@ -6,7 +6,8 @@
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     
-    <bean id="mycoach" class="com.example.demo.CricketCoach">
+    <bean id="mycoach" class="com.example.demo.CricketCoach" >
+
     </bean>
     
 
