@@ -23,7 +23,7 @@ public class Student {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int roll_no;
 	private String name;
-	@OneToMany(targetEntity = Laptop.class)
+	@OneToMany(targetEntity = Laptop.class,fetch =  FetchType.EAGER)
 	@JoinColumn(name = "fk",referencedColumnName = "roll_no")
 	
 	private List<Laptop> laptops;

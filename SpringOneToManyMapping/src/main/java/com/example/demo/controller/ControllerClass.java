@@ -44,7 +44,7 @@ public class ControllerClass {
 	
 	@PostMapping("user/add")
 	public Student add_student(@RequestBody Student student) {
-		System.out.println(student.getLaptops());
+		
 		List<Laptop> laptops=student.getLaptops();
 		lr.saveAll(laptops);
 		student.setLaptops(laptops);
